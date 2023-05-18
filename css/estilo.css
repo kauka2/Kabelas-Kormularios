@@ -1,0 +1,144 @@
+* {
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+}
+
+:root {
+   --principal: #2B75E2;
+}
+
+header {
+   background-image: url("../imgs/banner.jpeg");
+   background-repeat: no-repeat;
+   height: 5rem;
+   background-size: cover;
+   text-align: center;
+}
+
+
+main {
+   height: calc(100vh - 8rem);
+}
+
+main nav {
+   background-color: var(--principal);
+   display: flex;
+   justify-content: center;
+}
+
+
+main nav h2 {
+   padding: 0.5rem 5rem;
+   color: white;
+   text-shadow: 0.1rem 0.1rem 0rem black;
+}
+
+main p.texto1 {
+   display: flex;
+   justify-content: center;
+}
+
+main.ancora {
+   height: calc(600vh);
+}
+
+main section {
+   padding: 2rem;
+}
+
+main a {
+   padding: 0rem 1rem;
+   text-decoration: none;
+   color: black
+}
+
+main section.resposta a {
+   color: rgb(162, 71, 248);
+}
+
+main h2 {
+   padding: 1rem 1rem;
+}
+
+
+main p {
+   padding: 0.5rem 1rem;
+}
+
+
+main li {
+   padding: 1rem 3rem;
+   list-style-type: upper-roman;
+}
+
+
+main li.quadrado {
+   list-style-type: square;
+}
+
+main nav a {
+   text-decoration: none;
+}
+
+main div {
+   height: 40rem;
+   width: 110rem;
+   padding-left: 20rem;
+   padding-top: 2rem;
+}
+
+main fieldset {
+   margin: 2rem;
+   height: 25rem;
+   width: 30rem;
+}
+
+main form {
+   width: 10rem;
+}
+
+main form div.formulario {
+   height: 2rem;
+   padding: 1rem;
+   width: 30rem;
+}
+
+main form div button {
+   color: white;
+   border: 0;
+   background: var(--principal);
+   height: 4rem;
+   width: 4rem;
+   border-radius: 2rem;
+   box-shadow: 0.1rem 0.1rem 0rem black;
+}
+
+main table tr td.center {
+   text-align: center;
+}
+
+h1 {
+   color: white;
+   text-shadow: 0.1rem 0.1rem 0rem black;
+}
+
+table thead tr th , table tr td {
+   border: 0.2rem solid black;
+}
+
+table {
+   border-collapse: collapse;
+   height: 40rem;
+   width: 80rem;
+}
+
+section {
+   height: 100vh;
+}
+
+footer {
+   background-color: var(--principal);
+   height: 3rem;
+}

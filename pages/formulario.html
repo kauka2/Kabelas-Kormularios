@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>CEFET - MG - Campus Varginha - Curso Técnico</h1>
+    </header>
+
+    <main>
+
+        <nav>
+            <a href="../index.html">
+                <h2>Início</h2>
+            </a>
+            <a href="./tabela.html">
+                <h2>Curso</h2>
+            </a>
+            <a href="./ancora.html">
+                <h2>FAQ</h2>
+            </a>
+            <a href="">
+                <h2>Contato</h2>
+            </a>
+        </nav>
+        <fieldset>
+            <legend>Contato</legend>
+            <form action="" method="post" enctype="multipart/form-data">
+
+                <div class="formulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="João"> <br>
+                </div>
+
+                <div class="formulario">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="name@gmail.com"> <br>
+                </div>
+
+                <div class="formulario">
+                    <input type="radio" name="sexo[]" id="masc" name="masc">
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="sexo[]" id="fem" name="fem"> 
+                    <label for="fem">Feminino</label>
+                </div>
+
+                <div class="formulario">
+                    <label for="estado">Estado/</label>
+                    <label for="cidade">Cidade</label>
+                    <select name="estado" id="estado">
+                        <option value="MG">MG</option>
+                        <option value="SP">SP</option>
+                        <option value="CE">CE</option>
+                        <option value="RJ">RJ</option>
+                        <option value="BA">BA</option>
+                    </select>
+                    <input type="text" name="cidade" id="cidade" placeholder="Varginha"> <br>
+                </div>
+
+                <div class="formulario">
+                    <label for="arquivo">Selecione um arquivo</label>
+                    <input type="file" name="arquivo" id="arquivo"> <br>
+                </div>
+
+                <div class="formulario">
+                    <label for="sugestao">Sugestão</label> <br>
+                    <textarea name="sugestao" id="sugestao" cols="50" rows="6"></textarea>
+                <div class="formulario">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+
+
+            </form>
+        </fieldset>
+
+    </main>
+
+    <footer>
+        <h1>©copyleft</h1>
+    </footer>
+</body>
+
+</html>
